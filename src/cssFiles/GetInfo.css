@@ -1,0 +1,18 @@
+.cityForm{
+    display: flex;
+    padding-top: 20px;
+    color: white;
+    justify-content: center;
+
+}
+
+.textbox{
+    background-color: white;
+    border-radius: 7px; 
+
+}
+
+.getInfoM{
+    margin-top: 80%;
+
+}
