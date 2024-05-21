@@ -14,7 +14,7 @@ const WeatherDisplay = ({ city, lat, lon }) => {
     const [popularArticles, setPopularArticles] = useState([])
     const [timezone, setTimezone] = useState(null);
 
-    const API_KEY = import.meta.env.VITE_Open_Weather_API2;
+    const API_KEY = import.meta.env.VITE_Open_Weather_API;
     const API_KEY_NY = import.meta.env.VITE_NY_TIMES_API;
 
     // For fetching current weather data
